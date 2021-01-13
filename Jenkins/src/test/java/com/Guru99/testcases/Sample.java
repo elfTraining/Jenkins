@@ -21,7 +21,7 @@ public class Sample
 		WebElement ele = driver.findElement(By.xpath("//span[.='India']"));
 		
 		String text = ele.getText();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		WebElement ele1 = driver.findElement(By.name("q"));
 		ele1.click();

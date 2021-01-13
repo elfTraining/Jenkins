@@ -31,6 +31,8 @@ public class Sample
 		SoftAssert sft = new SoftAssert();
 		sft.assertEquals(title, "India - Google Search");
 		
+		System.out.println(title);
+		
 		sft.assertAll();
 		
 		driver.close();
